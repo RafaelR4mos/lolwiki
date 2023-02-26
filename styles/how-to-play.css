@@ -37,6 +37,21 @@ body {
     max-width: 50%;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.concepts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+summary {
+    margin-bottom: 16px;
+}
+
 footer {
     background-color: var(--color-secondary);
 }
